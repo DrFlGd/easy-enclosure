@@ -1,0 +1,25 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DrFlGd/Generator-Library/main/schema/generator.schema.json",
+  "id": "easy-enclosure",
+  "name": "Easy Enclosure",
+  "summary": "Design 3D-printable enclosures for electronics with snap-fit lids, PCB standoffs and cable clamps; exports STL and STEP.",
+  "description": "EasyEnclosure is an open-source 3D modeling tool for designing 3D-printable enclosures. An intuitive interface and a set of user-friendly controls let anyone create custom enclosures for electronic projects, prototypes or DIY gadgets.",
+  "tags": ["enclosure", "electronics", "step", "stl"],
+  "process": "3d-print",
+  "license": "MIT",
+  "upstream": "bruceborrett/easy-enclosure",
+  "homepage": "https://bruceborrett.github.io/easy-enclosure/",
+  "icon": "public/screenshot.png",
+  "distributions": [
+    {
+      "kind": "web",
+      "url": "https://bruceborrett.github.io/easy-enclosure/",
+      "label": "Open online"
+    },
+    {
+      "kind": "mirror",
+      "url": "https://bruceborrett.github.io/easy-enclosure/",
+      "label": "Mirror for offline use"
+    }
+  ]
+}
